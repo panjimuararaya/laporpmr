@@ -1,0 +1,93 @@
+/* CSS untuk tampilan login form */
+.login-form {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-form h2 {
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.login-form button {
+    padding: 5px 10px;
+}
+
+#errorMessage {
+    color: red;
+}
+
+/* CSS untuk mencegah pengguna mengklik menu */
+.menu-item.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* CSS lainnya */
+/* ... */
+
+/* ... */
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+}
+
+.header {
+    background-color: #333;
+   background-image: url(pmr.jpg);
+   background-size: 120px;
+   background-position: left;
+   background-repeat: no-repeat;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu-bar {
+    background-image: url(tb.jpg);
+   background-color: aqua;
+    background-size: auto;
+    background-position: center;
+    width: 200px;
+    height: 70vh;
+    float: left;
+}
+
+.menu-bar ul {
+    list-style-type: center;
+    padding: center;
+}
+
+.menu-bar li {
+    padding: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content {
+    background-color: rgb(251, 253, 253);
+    padding: 0.01%;
+    margin-left: 200px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.002%;
+    text-align: center;
+    clear: both;
+}
