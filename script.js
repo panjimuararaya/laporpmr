@@ -1,7 +1,7 @@
 // Daftar menu yang akan ditampilkan berdasarkan menu-bar yang diklik
 var menuContent = {
     menu1: ["log book unit", "down time electrickal","down time mecanical","sparepart electrical","sparepart mecanical","spare part sipil","tools maintenance","serah Terima tukar jaga"],
-    menu2: ["Laporan bus bar", "laporan genset", "produksi harian", "laporan trip","laporan turbine","realisasi curah hujan","Serah terima tukar jaga","Produksi Tahunan","Catatan Mingguan"],
+    menu2: ["Laporan bus bar", "laporan genset", "produksi harian", "laporan trip","laporan turbine","realisasi curah hujan","Serah terima tukar jaga","Produksi Tahunan","Catatan Mingguan","Laporan Beban"],
     menu3: ["laporan sedimen", "logbook kendaraan","serah terima tukar jaga"],
     menu4: ["monitoring tegangan"]
 };
@@ -25,6 +25,7 @@ var menuLinks = {
     "Serah terima tukar jaga": "https://tinyurl.com/5c7ax2ef",
     "Produksi Tahunan": "https://tinyurl.com/9b7yr8jf",
     "Catatan Mingguan": "https://tinyurl.com/yx433w64",
+    "Laporan Beban": "https://tinyurl.com/yfrnuwrw",
     "laporan sedimen": "https://tinyurl.com/5f32xvmc",
     "logbook kendaraan": "https://tinyurl.com/4dtmmwf2",
     "serah terima tukar jaga": "https://tinyurl.com/57ks4ft8",
